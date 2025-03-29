@@ -19,7 +19,7 @@
                 <p>Please fill in the details to sign up</p>
             </div>
 
-            <form id="signupForm" class="signup-form" action="login.html" method="POST">
+            <form id="signupForm" class="signup-form" action="signupbackend.php" method="POST">
                 <div class="row">
                     <div class="col-md-6 form-group">
                         <div class="input-group">
