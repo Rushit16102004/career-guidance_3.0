@@ -95,7 +95,7 @@
                 <button type="submit" class="btn btn-signup" id="createAccountBtn">Create Account</button>
 
                 <div class="login-link">
-                    Already have an account? <a href="login.html">Login</a>
+                    Already have an account? <a href="login.php">Login</a>
                 </div>
             </form>
         </div>
