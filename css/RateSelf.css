@@ -1,0 +1,185 @@
+/* Reset Styles */
+body, h1, select, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Container Styling */
+.container {
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Heading */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+    animation: slideDown 0.8s ease-in-out;
+}
+
+/* Question Styling */
+.question {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    font-size: 1.2em;
+    color: #555;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.question label {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+/* Select Dropdown */
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: border-color 0.3s ease-in-out;
+}
+
+select:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Underline Effect */
+.underline {
+    text-decoration: underline;
+    text-decoration-color: rgb(66, 69, 90);
+    animation: pulse 1.5s infinite;
+}
+
+/* Button Styling */
+button, .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    animation: bounce 1s infinite alternate;
+}
+
+button:hover, .btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+button:focus, .btn:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+    
+    button, .btn {
+        width: 90%;
+        font-size: 18px;
+        padding: 10px;
+    }
+    
+    .question {
+        font-size: 1.1em;
+    }
+}
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-5px);
+    }
+}
+
+/* Progress Bar */
+.progress-container {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.progress-bar {
+    background: linear-gradient(90deg, #4caf50, #2e8b57);
+    height: 40px;
+    width: 0;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    line-height: 40px;
+    transition: width 0.8s ease-in-out;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: progressAnimation 2s infinite alternate;
+}
+
+@keyframes progressAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
