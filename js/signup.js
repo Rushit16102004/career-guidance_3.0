@@ -1,4 +1,4 @@
-// Toggle password visibility
+// Toggle password visibility and chack passwors and confarm password   46
 function togglePassword(inputId, iconId) {
     const passwordInput = document.getElementById(inputId);
     const toggleIcon = document.getElementById(iconId);
@@ -13,6 +13,41 @@ function togglePassword(inputId, iconId) {
         toggleIcon.classList.add('fa-eye');
     }
 }
+
+document.getElementById("confirmPassword").addEventListener("input", function () {
+    const password = document.getElementById("password").value;
+    const confirmPassword = this.value;
+    const messageElement = document.getElementById("confirmPasswordHelp");
+    const createAccountBtn = document.getElementById("createAccountBtn");
+    
+    if (confirmPassword !== password) {
+        messageElement.textContent = "Passwords do not match!";
+        messageElement.style.color = "red";
+        createAccountBtn.disabled = true;
+    } else {
+        messageElement.textContent = "Passwords match.";
+        messageElement.style.color = "green";
+        createAccountBtn.disabled = false;
+    }
+});
+
+function togglePassword(fieldId, iconId) {
+    const field = document.getElementById(fieldId);
+    const icon = document.getElementById(iconId);
+    if (field.type === "password") {
+        field.type = "text";
+        icon.classList.replace("fa-eye", "fa-eye-slash");
+    } else {
+        field.type = "password";
+        icon.classList.replace("fa-eye-slash", "fa-eye");
+    }
+}
+
+document.getElementById("createAccountBtn").disabled = true;
+
+
+
+
 
 // Real-time password strength indicator
 document.getElementById('password').addEventListener('input', function(e) {
