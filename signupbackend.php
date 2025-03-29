@@ -13,6 +13,6 @@ $result = mysqli_query($conn, $query);
 
 if($result){
     echo '<script>alert("Registered Successfully.");</script>';
-    echo '<script>window.location.href="login.php"</script>';
+    echo '<script>window.location.href="../login.php"</script>';
 }
 ?>
