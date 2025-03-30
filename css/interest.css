@@ -36,39 +36,6 @@ body {
     font-weight: 600;
   }
 
-
-/* nav bar 31 */
-.navbar{
-    background-color: #112D42;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-#text{
-    font-family: 'Oswald', sans-serif;
-    text-decoration: none;
-    color: white;
-}
-.brand{
-    color: #0a6fe9;
-    font-family: 'Oswald', sans-serif;
-}
-#active{
-    color: #D35400;
-}
-.nav-link{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-}
-#links{
-    color: white;
-}
-#links:hover{
-    background-color: #D35400;
-}
-
 .carousel {
     margin-bottom: 4rem;
   }

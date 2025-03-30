@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programming Skills Quiz</title>
+
     <link rel="stylesheet" href="/CSS/RateSelf.css">
+    <link rel="stylesheet" href="CSS/all.css" type="text/css">
+
 </head>
 <body>
     <div class="container">
+
         <h1>self-assessment tests</h1>
-        <button class="btn" id="softwareSkill" onclick="toggleQuiz('quizForm_software')">Technical Field</button>       <!--software as a Technical Field-->
-        <button class="btn" id="hardwareSkill" onclick="toggleQuiz('quizForm_hardware')">Non-Technical Field</button>   <!--hardware as a Non-Technical Field-->
+        <button class="btn" id="softwareSkill">Technical Field</button>       <!--software as a Technical Field-->
+        <button class="btn" id="hardwareSkill">Non-Technical Field</button>   <!--hardware as a Non-Technical Field-->
 
 <!-- software form -->
 <form id="quizForm_software">
@@ -199,178 +203,11 @@
 </form>
 
 <!-- hardwate form -->
-        <form id="quizForm_hardware" style="display: none;">
-            <div class="question">
-                <label>10000. How would you rate your JavaScript skills?</label>
-                <select name="jsSkill1">
-                    <option value="0">Select</option>
-                    <option value="19">Beginner</option>
-                    <option value="40">Intermediate</option>
-                    <option value="60">Advanced</option>
-                    <option value="80">Expert</option>
-                    <option value="100">Master</option>
-                </select>
-            </div>
-            <div class="question">
-                <label>2. How would you rate your Python skills?</label>
-                <select name="pythonSkill2">
-                    <option value="0">Select</option>
-                    <option value="19">Beginner</option>
-                    <option value="40">Intermediate</option>
-                    <option value="60">Advanced</option>
-                    <option value="80">Expert</option>
-                    <option value="100">Master</option>
-                </select>
-            </div>
-            <div class="question">
-                <label>3. How would you rate your Java skills?</label>
-                <select name="javaSkill3">
-                    <option value="0">Select</option>
-                    <option value="19">Beginner</option>
-                    <option value="40">Intermediate</option>
-                    <option value="60">Advanced</option>
-                    <option value="80">Expert</option>
-                    <option value="100">Master</option>
-                </select>
-            </div>
-            <div class="question">
-                <label>4. How would you rate your C++ skills?</label>
-                <select name="cppSkill4">
-                    <option value="0">Select</option>
-                    <option value="19">Beginner</option>
-                    <option value="40">Intermediate</option>
-                    <option value="60">Advanced</option>
-                    <option value="80">Expert</option>
-                    <option value="100">Master</option>
-                </select>
-            </div>
-            <div class="question">
-                <label>5. How would you rate your HTML/CSS skills?</label>
-                <select name="htmlCssSkill5">
-                    <option value="0">Select</option>
-                    <option value="19">Beginner</option>
-                    <option value="40">Intermediate</option>
-                    <option value="60">Advanced</option>
-                    <option value="80">Expert</option>
-                    <option value="100">Master</option>
-                </select>
-            </div>
-            <div class="question">
-                <label>6. How would you rate your Ruby skills?</label>
-                <select name="rubySkill6">
-                    <option value="0">Select</option>
-                    <option value="19">Beginner</option>
-                    <option value="40">Intermediate</option>
-                    <option value="60">Advanced</option>
-                    <option value="80">Expert</option>
-                    <option value="100">Master</option>
-                </select>
-            </div>
-            <div class="question">
-                <label>7. How would you rate your Swift skills?</label>
-                <select name="swiftSkill7">
-                    <option value="0">Select</option>
-                    <option value="19">Beginner</option>
-                    <option value="40">Intermediate</option>
-                    <option value="60">Advanced</option>
-                    <option value="80">Expert</option>
-                    <option value="100">Master</option>
-                </select>
-            </div>
-            <div class="question">
-                <label>8. How would you rate your PHP skills?</label>
-                <select name="phpSkill8">
-                    <option value="0">Select</option>
-                    <option value="19">Beginner</option>
-                    <option value="40">Intermediate</option>
-                    <option value="60">Advanced</option>
-                    <option value="80">Expert</option>
-                    <option value="100">Master</option>
-                </select>
-            </div>
-            <div class="question">
-                <label>9. How would you rate your Go skills?</label>
-                <select name="goSkill9">
-                    <option value="0">Select</option>
-                    <option value="19">Beginner</option>
-                    <option value="40">Intermediate</option>
-                    <option value="60">Advanced</option>
-                    <option value="80">Expert</option>
-                    <option value="100">Master</option>
-                </select>
-            </div>
-            <div class="question">
-                <label>10. How would you rate your Rust skills?</label>
-                <select name="rustSkill10">
-                    <option value="0">Select</option>
-                    <option value="19">Beginner</option>
-                    <option value="40">Intermediate</option>
-                    <option value="60">Advanced</option>
-                    <option value="80">Expert</option>
-                    <option value="100">Master</option>
-                </select>
-            </div>
-            <div class="question">
-                <label>11. How would you rate your TypeScript skills?</label>
-                <select name="typescriptSkill11">
-                    <option value="0">Select</option>
-                    <option value="19">Beginner</option>
-                    <option value="40">Intermediate</option>
-                    <option value="60">Advanced</option>
-                    <option value="80">Expert</option>
-                    <option value="100">Master</option>
-                </select>
-            </div>
-            <div class="question">
-                <label>12. How would you rate your Kotlin skills?</label>
-                <select name="kotlinSkill12">
-                    <option value="0">Select</option>
-                    <option value="19">Beginner</option>
-                    <option value="40">Intermediate</option>
-                    <option value="60">Advanced</option>
-                    <option value="80">Expert</option>
-                    <option value="100">Master</option>
-                </select>
-            </div>
-            <div class="question">
-                <label>13. How would you rate your Scala skills?</label>
-                <select name="scalaSkill13">
-                    <option value="0">Select</option>
-                    <option value="19">Beginner</option>
-                    <option value="40">Intermediate</option>
-                    <option value="60">Advanced</option>
-                    <option value="80">Expert</option>
-                    <option value="100">Master</option>
-                </select>
-            </div>
-            <div class="question">
-                <label>14. How would you rate your Haskell skills?</label>
-                <select name="haskellSkill14">
-                    <option value="0">Select</option>
-                    <option value="19">Beginner</option>
-                    <option value="40">Intermediate</option>
-                    <option value="60">Advanced</option>
-                    <option value="80">Expert</option>
-                    <option value="100">Master</option>
-                </select>
-            </div>
-            <div class="question">
-                <label>15. Experience in tech field in month</label>
-                <select name="Experience15">
-                    <option value="0">Select</option>
-                    <option value="0">beginner</option>
-                    <option value="20">below 6 month</option>
-                    <option value="45">6 to 12</option>
-                    <option value="75">12 to 24</option>
-                    <option value="100">above 24</option>
-                </select>
-            </div>
-            <button type="button" onclick="calculateScoreHardware()">Submit</button>
-            <div id="result_hardware"></div>
-            <div id="goH"></div>
-        </form>
+<!-- null -->
 
     </div>
 <script src="/JS/RateSelf.js"></script>
+<script src="js/all.js"></script>
+
 </body>
 </html>
