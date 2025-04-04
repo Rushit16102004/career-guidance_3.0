@@ -24,7 +24,7 @@
                 <p>Please fill in the details to sign up</p>
             </div>
 
-            <form id="signupForm" class="signup-form" action="login.html" method="POST">
+            <form id="signupForm" class="signup-form" action="signupbackend.php" method="POST">
                 <div class="row">
                     <div class="col-md-6 form-group">
                         <div class="input-group">
@@ -106,7 +106,7 @@
         </div>
     </div>
 
-    <script>
+    <!-- <script>
         document.getElementById('signupForm').addEventListener('submit', function(e) {
             e.preventDefault(); // Prevent default form submission
             
@@ -117,11 +117,11 @@
                 
                 // Redirect to login page after a short delay
                 setTimeout(function() {
-                    window.location.href = 'login.html';
+                    window.location.href = 'login.php';
                 }, 1000); // 1 second delay
             }
         });
-        </script>
+        </script> -->
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>

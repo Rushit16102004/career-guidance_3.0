@@ -23,44 +23,44 @@
                 <h2>Welcome Back</h2>
                 <p>Please login to your account</p>
             </div>
-            
-            <form id="loginForm" class="login-form" action="RateSelf.html" method="POST">
+
+            <form id="loginForm" class="login-form" action="loginbackend.php" method="POST">
                 <div class="form-group">
                     <div class="input-group">
                         <span class="input-group-text">
                             <i class="fas fa-user"></i>
                         </span>
-                        <input type="email" class="form-control" id="email" placeholder="Email" required>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
                     </div>
                 </div>
-                
+
                 <div class="form-group">
                     <div class="input-group">
                         <span class="input-group-text">
                             <i class="fas fa-lock"></i>
                         </span>
-                        <input type="password" class="form-control" id="password" placeholder="Password" required>
+                        <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
                         <span class="input-group-text password-toggle" onclick="togglePassword()">
                             <i class="fas fa-eye" id="toggleIcon"></i>
                         </span>
                     </div>
                 </div>
-                
+
                 <div class="form-group form-check">
                     <input type="checkbox" class="form-check-input" id="remember">
                     <label class="form-check-label" for="remember">Remember me</label>
                     <a href="#" class="forgot-password">Forgot Password?</a>
                 </div>
-                
+
                 <button type="submit" class="btn btn-login" id="createAccountBtn">Login</button>
 
-                
+
                 <div class="divider">
                     <span>Create account free!!</span>
                 </div>
-                
+
                 <div class="signup-link">
-                    Don't have an account? <a href="signup.html">Sign up</a>
+                    Don't have an account? <a href="signup.php">Sign up</a>
                 </div>
             </form>
         </div>
@@ -70,12 +70,12 @@
     <script>
         document.getElementById('loginForm').addEventListener('submit', function(e) {
             e.preventDefault(); // Prevent default form submission
-            
+
             // Basic validation
             if(this.checkValidity()) {
                 // Show success message
                 alert('Login successfully!');
-                
+
                 // Redirect to login page after a short delay
                 setTimeout(function() {
                     window.location.href = 'RateSelf.html';

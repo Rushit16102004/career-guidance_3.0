@@ -1,11 +1,37 @@
-// Toggle content for blog posts    9
-function toggleContent(postId) {
-  const content = document.getElementById(postId);
-  if (content.style.display === "none") {
-    content.style.display = "block";
-  } else {
-    content.style.display = "none";
-  }
+// JavaScript for Toggle Functionality 9
+document.addEventListener("DOMContentLoaded", function () {
+    const blogPosts = [
+        { title: "Post One", content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", more: "Additional content for Post One." },
+        { title: "Post Two", content: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", more: "Extra details for Post Two." },
+        { title: "Post Three", content: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.", more: "Further reading for Post Three." }
+    ];
+
+    const container = document.getElementById("blog-container");
+
+    blogPosts.forEach(post => {
+        const postDiv = document.createElement("div");
+        postDiv.classList.add("col-md-4");
+        postDiv.innerHTML = `
+            <div class="blog-post">
+                <h3>${post.title}</h3>
+                <p>${post.content}</p>
+                <button class="btn" onclick="toggleMoreContent(this)">Read More</button>
+                <div class="more-content">${post.more}</div>
+            </div>
+        `;
+        container.appendChild(postDiv);
+    });
+});
+
+function toggleMoreContent(button) {
+    const moreContent = button.nextElementSibling;
+    if (moreContent.style.display === "block") {
+        moreContent.style.display = "none";
+        button.textContent = "Read More";
+    } else {
+        moreContent.style.display = "block";
+        button.textContent = "Read Less";
+    }
 }
 
 

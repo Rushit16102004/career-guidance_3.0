@@ -89,46 +89,17 @@
             </div>
         </div>
     </section>
+
+    
     <section id="blog">
         <div class="container">
-            <h2 class="blog-title">Find Relevant Job Listings to Boost Your Career</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="blog-post">
-                        <h3>Understanding Your Career Goals</h3>
-                        <p>   Define  your  career  goals  to  focus  your  job  search  on  roles  that  align  with  your  long-term  aspirations. This  is  a  brief  description  of  what  the  post  is  about.                         </p>
-                        <button class="btn btn-primary" onclick="toggleContent('post1')">Read More</button>
-                        <div id="post1" class="more-content" style="display:none;">
-                            <p>Before diving into job listings, it's crucial to have a clear understanding of your career goals. Identifying your professional aspirations allows you to focus your job search on roles that align with your long-term objectives. Consider what industries and roles excite you, and think about where you see yourself in the next five to ten years.
-                                By having a clear vision of your career  path, you can better filter job listings and apply to positions that not only match your skills but also contribute to your overall career development.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="blog-post">
-                        <h3>Utilizing Career Assessment Tools</h3>
-                        <p>Career assessment tools can help identify your strengths, interests, and potential career paths, guiding your job search towards suitable opportunities. This is a brief description of what the post is about.</p>
-                        <button class="btn btn-primary" onclick="toggleContent('post2')">Read More</button>
-                        <div id="post2" class="more-content" style="display:none;">
-                            <p>Career assessment tools are invaluable for identifying your strengths, interests, and potential career paths. These tools often include quizzes and assessments that can provide insights into the types of jobs that might be a good fit for you.
-                                Many online platforms offer free or paid career assessment tools. Take advantage of these resources to gain a deeper understanding of your professional inclinations. The results can guide you towards job listings that align with your unique skills and interests.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="blog-post">
-                        <h3>Staying Updated with Industry Trends</h3>
-                        <p>Staying updated on industry trends helps you identify in-demand skills and emerging roles, enhancing your job search and interview performance. This is a brief description of what the post is about.</p>
-                        <button class="btn btn-primary" onclick="toggleContent('post3')">Read More</button>
-                        <div id="post3" class="more-content" style="display:none;">
-                            <p>Staying informed about industry trends is essential for finding job opportunities that are relevant and forward-looking. Regularly read industry news, follow thought leaders on social media, and participate in professional groups or forums.
-                                Being aware of the latest trends can help you identify which skills are in demand and what types of roles are emerging. This knowledge not only helps you target your job search more effectively but also prepares you to discuss industry developments during interviews.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <h2 class="blog-title">Latest Blog Posts</h2>
+            <div class="row" id="blog-container"></div>
         </div>
     </section>
+    <html>
+        <body>
+            <form action="indexbackend.php" method="POST">
     <section id="contact">
         <div class="container">
             <div id="contactinfo">
@@ -159,23 +130,23 @@
                 <h2>Send A Message</h2>
                 <div class="formbox">
                     <div class="inputbox w50">
-                        <input type="text" required>
+                        <input type="text" id="firstname" name="firstname" required>
                         <span>First Name</span>
                     </div>
                     <div class="inputbox w50">
-                        <input type="text" required>
+                        <input type="text" id="lastname" name="lastname" required>
                         <span>Last Name</span>
                     </div>
                     <div class="inputbox w50">
-                        <input type="email" required>
+                        <input type="email" id="email" name="email" required>
                         <span>Email Address</span>
                     </div>
                     <div class="inputbox w50">
-                        <input type="text" required>
+                        <input type="text" id="mobile" name="mobile" required>
                         <span>Mobile Number</span>
                     </div>
                     <div class="inputbox w100">
-                        <textarea required></textarea>
+                        <textarea id="message" name="message" required></textarea>
                         <span>Write your message here...</span>
                     </div>
                     <div class="inputbox w50">
@@ -185,6 +156,9 @@
             </div>
         </div>
     </section>
+    </form>
+    </body>
+    </html>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="JS/scripts.js"></script>
