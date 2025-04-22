@@ -1,5 +1,0 @@
-# Set the language explicitly for PHP files
-*.php linguist-language=PHP
-
-# Normalize line endings automatically for all text-based files
-* text=auto
