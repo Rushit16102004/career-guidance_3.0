@@ -9,6 +9,8 @@
     
     <!--Custom CSS-->
     <link rel="stylesheet" href="CSS/styles.css" type="text/css">
+    <link rel="stylesheet" href="css/all.css" type="text/css">
+
 
 
     <!--Google Fonts-->
@@ -25,17 +27,17 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
+                <div class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <div class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">HOME</a>
-                    </li>
-                    <li class="nav-item">
+                    </div>
+                    <div class="nav-item">
                         <a class="nav-link" href="#contact">CONTACTS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="login.html">SIGN IN</a>
-                    </li>
-                </ul>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link" href="login.php">SIGN IN</a>
+                    </div>
+                </div>
             </div>
         </div>
     </nav>

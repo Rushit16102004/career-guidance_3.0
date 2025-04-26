@@ -8,6 +8,8 @@
         
         <!--Custom CSS-->
         <link rel="stylesheet" href="CSS/interest.css" type="text/css">
+        <link rel="stylesheet" href="css/all.css" type="text/css">
+
     
     
         <!--Google Fonts-->
@@ -18,27 +20,27 @@
 <body>
 
     
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Career <span class="brand">Guidance</span></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">CONTACTS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="login.php">SIGN IN</a>
-                    </li>
-                </ul>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Career <span class="brand">Guidance</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <div class="navbar-nav me-auto mb-2 mb-lg-0">
+                <div class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link" href="#contact">CONTACTS</a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link" href="login.php">SIGN IN</a>
+                </div>
             </div>
         </div>
-    </nav>
+    </div>
+</nav>
 
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -78,7 +80,7 @@
                     <div class="carousel-caption">
                         <h2>Promoting career guidance to the fullest</h2>
                         <p>
-                            Don’t worry about trying to please everyone. Focus on yourself..
+                            Don't worry about trying to please everyone. Focus on yourself..
                         </p>
                         <p>
                             <a class="btn btn-lg btn-primary" href="#par">Learn More</a>
@@ -201,13 +203,13 @@
                                     Information technology (IT) involves the use of computers, storage and networking devices to create, process, store, share and secure electronic data. It is a fast-growing field, due largely to the high demand for IT services across all industries. IT degree programs prepare students to earn potentially lucrative salaries while working for IT departments and consulting firms. The median annual wage for IT careers was $81,430 in May 2015, according to the U.S. Bureau of Labor Statistics, considerably higher than that for all occupations. Read more to learn how to get started in the field of IT, from the various types of careers available to the degrees necessary to secure employment.
                                 </p>
                                 <p>
-                                    Information technology degree programs vary widely depending on the institution issuing the credential. From traditional colleges and universities to accredited online and distance learning degree programs, educational opportunities are available to suit nearly any budget or schedule. Some schools offer certificate courses in specialized areas of information technology. Others offer associate, bachelor’s, or master’s degree programs designed to produce well-rounded students with broad-based knowledge in many different areas of information technology.
+                                    Information technology degree programs vary widely depending on the institution issuing the credential. From traditional colleges and universities to accredited online and distance learning degree programs, educational opportunities are available to suit nearly any budget or schedule. Some schools offer certificate courses in specialized areas of information technology. Others offer associate, bachelor's, or master's degree programs designed to produce well-rounded students with broad-based knowledge in many different areas of information technology.
                                 </p>
                                 <p>
-                                    If you are looking for information technology degree programs, you’ll find both on-campus and distance-based choices. An online program could be a good choice if you want to enroll in a school that is far away, but not move from where you live. In fact, online information technology degrees come in many different shapes and sizes. These include hybrid programs, which are a blend of campus-based and distance learning courses, fully online programs, accelerated online options and even joint degree programs. Most online information technology degree programs also use an interactive learning management system that allows you to submit assignments, ask questions and have discussions with other students.
+                                    If you are looking for information technology degree programs, you'll find both on-campus and distance-based choices. An online program could be a good choice if you want to enroll in a school that is far away, but not move from where you live. In fact, online information technology degrees come in many different shapes and sizes. These include hybrid programs, which are a blend of campus-based and distance learning courses, fully online programs, accelerated online options and even joint degree programs. Most online information technology degree programs also use an interactive learning management system that allows you to submit assignments, ask questions and have discussions with other students.
                                 </p>
                                 <p>
-                                    If you are looking for information technology degree programs, you’ll find both on-campus and distance-based choices. An online program could be a good choice if you want to enroll in a school that is far away, but not move from where you live. In fact, online information technology degrees come in many different shapes and sizes. These include hybrid programs, which are a blend of campus-based and distance learning courses, fully online programs, accelerated online options and even joint degree programs. Most online information technology degree programs also use an interactive learning management system that allows you to submit assignments, ask questions and have discussions with other students.
+                                    If you are looking for information technology degree programs, you'll find both on-campus and distance-based choices. An online program could be a good choice if you want to enroll in a school that is far away, but not move from where you live. In fact, online information technology degrees come in many different shapes and sizes. These include hybrid programs, which are a blend of campus-based and distance learning courses, fully online programs, accelerated online options and even joint degree programs. Most online information technology degree programs also use an interactive learning management system that allows you to submit assignments, ask questions and have discussions with other students.
                                 </p>
                             </div>
                         </div>
@@ -880,10 +882,10 @@
                       AI roles can command high salaries, averaging over $100,000. The median salary for an AI researcher is $128,560, according to April 2024 Payscale data
                     </p>
                     <p>
-                      AI is everywhere around us, and its capabilities are sought-after by almost every industry. It’s no surprise, therefore, that research from Gartner suggests that the demand for workers with specialist AI skills and machine learning knowledge tripled between 2015 and 2019.  
+                      AI is everywhere around us, and its capabilities are sought-after by almost every industry. It's no surprise, therefore, that research from Gartner suggests that the demand for workers with specialist AI skills and machine learning knowledge tripled between 2015 and 2019.  
                     </p>
                     <p>
-                      <b>Whatever Artificial Intelligence career you’re looking to pursue developing a strong knowledge of programming languages is a key skill that you need to harness.</b>
+                      <b>Whatever Artificial Intelligence career you're looking to pursue developing a strong knowledge of programming languages is a key skill that you need to harness.</b>
                       <br>Machine learning engineer
                       <br>Algorithm developer
                       <br>Computer vision engineer
@@ -1584,7 +1586,7 @@
                         <p class="card-text">
                           <b>The Future of Machine Learning: Growth and Job Requirements</b>
                           <br>Machine learning (ML) has emerged as a transformative force across various industries, revolutionizing how we analyze data and make decisions. Over the past decade, the field has witnessed exponential growth, driven by advancements in algorithms, increased computational power, and the availability of vast amounts of data. According to a report by the U.S. Bureau of Labor Statistics, employment in machine learning and related fields has grown by over 40% since 2015, making it one of the fastest-growing sectors in technology.
-                          <br>The rise of big data has played a crucial role in this growth. Organizations are now collecting and storing more data than ever before, leading to a demand for professionals who can extract meaningful insights from this information. Machine learning enables businesses to automate processes, enhance customer experiences, and improve decision-making, making it an invaluable asset in today’s data-driven world.
+                          <br>The rise of big data has played a crucial role in this growth. Organizations are now collecting and storing more data than ever before, leading to a demand for professionals who can extract meaningful insights from this information. Machine learning enables businesses to automate processes, enhance customer experiences, and improve decision-making, making it an invaluable asset in today's data-driven world.
                         </p>
                         <p>
                           <br><b>As we look to the future, the job requirements in the machine learning branch are evolving. Here are some key skills and qualifications that aspiring professionals should focus on:</b>
@@ -1696,6 +1698,5 @@
 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
 <script src="js/interest.js"></script>
-
 </body>
 </html>
