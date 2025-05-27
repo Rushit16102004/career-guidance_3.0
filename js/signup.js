@@ -46,9 +46,6 @@ function togglePassword(fieldId, iconId) {
 document.getElementById("createAccountBtn").disabled = true;
 
 
-
-
-
 // Real-time password strength indicator
 document.getElementById('password').addEventListener('input', function(e) {
     const password = e.target.value;
